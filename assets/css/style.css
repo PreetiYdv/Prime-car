@@ -329,3 +329,8 @@ select option {
 .image_overlay:hover .text-adjust-shadow {
     opacity: 1;
 }
+
+.play_btn {
+    height: 50px;
+    width: 50px;
+}
