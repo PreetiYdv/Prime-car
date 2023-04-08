@@ -264,6 +264,18 @@
 
 }
 
+.text-adjust-shadow {
+    position: absolute;
+    z-index: 100;
+    top: 20%;
+    left: 20%;
+    opacity: 0;
+}
+
+.image_overlay:hover .text-adjust-shadow {
+    opacity: 1;
+}
+
 .mw_427 {
     max-width: 427px;
 }
@@ -305,6 +317,11 @@ select option {
     left: 45%;
 }
 
+.play_btn {
+    height: 50px;
+    width: 50px;
+}
+
 .facebook:hover svg>path {
     background: #000;
     fill: white;
@@ -315,21 +332,4 @@ select option {
     .myContainer {
         max-width: 1720px !important;
     }
-}
-
-.text-adjust-shadow {
-    position: absolute;
-    z-index: 100;
-    top: 20%;
-    left: 20%;
-    opacity: 0;
-}
-
-.image_overlay:hover .text-adjust-shadow {
-    opacity: 1;
-}
-
-.play_btn {
-    height: 50px;
-    width: 50px;
 }
