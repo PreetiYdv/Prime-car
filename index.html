@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slick slider css link -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- root css -->
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon_img.png" type="image/x-icon">
+    <title>Prime Car</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="bg_image  min-vh-100">
+        <div class="container myContainer">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container myContainer">
+                    <a class="d-lg-none navbar-brand fs_3xl ff_AmericanCaptain fc_primary" href="#">
+                        Prime Car</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-between align-items-center" id="navbarTogglerDemo02">
+                            <a class="navbar-brand fs_3xl ff_AmericanCaptain fc_primary" href="#">
+                                Prime Car</a>
+                            <ul class="navbar-nav mb-0 gap-xl-5 gap-lg-4">
+                                <li class="nav-item">
+                                    <a class="nav-link fs_reg fc_primary" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs_reg fc_primary" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs_reg fc_primary" href="#benifits">Benefits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs_reg fc_primary" href="#cars">Cars</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <a href="#contact" class="fs_reg fc_primary">
+                                    <button class="contact_btn  pe-3 bg-transparent  glow-on-hover">
+                                        Contact
+                                        Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section id="home">
+            <div class="container myContainer py-5">
+                <div class="d-flex align-items-end flex-column">
+                    <h1 class="fs_6xl fc_primary ff_AmericanCaptain text-end pt-5 mw_811">More economy, same speed</h1>
+                    <p class="fs_xl fc_primary ff_sfproDisplay text-end mw318 pb-4">The most beloved cars of the moment
+                        for
+                        those who want to ride in style without spending too much</p>
+                    <button class="contact_btn fs_reg fc_primary bg-transparent  glow-on-hover">Discover
+                        <img src="./assets/images/arrow.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- About us -->
+    <section class="bg_color" id="about">
+        <div class="container myContainer py-5">
+            <h1 class="fs_6xl fc_primary ff_AmericanCaptain  pt-5 text-center">About Us</h1>
+            <div class="row align-items-center pb-5">
+                <div class="col-12 col-xl-6">
+                    <p class="ff_sfProRegular fs_reg fc_primary">We pride ourselves at being able to get our
+                        customer into the car that
+                        they want, and more importantly, at they price
+                        they are looking for.</p>
+                    <p class="ff_sfProRegular fs_reg fc_primary ">
+                        We maintain outstanding customer service by listening to our customers and making sure that
+                        we
+                        meet their needs. Even if
+                        you don't buy from us, we will offer free advice on whe to look for when buying a used car
+                        or
+                        truck.
+                    </p>
+                    <p class="ff_sfProRegular fs_reg fc_primary">
+                        Our philosophy is to accomodate you, the customer, with outstanding service while providing
+                        you
+                        the highest quality
+                        automobile needs at wholesale prices. We have a wide selection of vehicles and the expertise
+                        to
+                        deal with what you are
+                        looking for.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-6 position-relative">
+                    <img src="./assets/images/aboutus.png" alt="" class="about_position w-100 z-0">
+                    <div id="tilt">
+                        <img src="./assets/images/racing_car.png" alt="" class="w-100 position-relative z-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card -->
+    <section class="bg_black py-5 position-relative" id="benifits">
+        <img src="./assets/images/Lines.png" alt="" class="line_position z-0">
+        <img src="./assets/images/Lines2.png" alt="" class="line2_position">
+        <div class="container myContainer py-5">
+            <div class="d-flex align-items-center justify-content-center">
+                <h2 class="ff_AmericanCaptain fs_5xl fc_primary text-center mw_1284 z-1 position-relative">All the
+                    benefits you will get when
+                    you shop
+                    with us</h2>
+            </div>
+            <p class="fc_primary text-center mb-5 pb-5 ff_sfProRegular fs_reg">Take advantage of everything you can have
+                now by buying your new
+                car at
+                Prime Car</p>
+            <div class="row justify-content-center pb-5">
+                <div class="col-12 col-md-6 col-xl-4 mb-5 mt-5">
+                    <div class="p-4">
+                        <div class="card h-100 position-relative color_green">
+                            <img src="./assets/images/I3D-01 1.png" alt="" class="position scale_hover">
+                            <h3 class="fc_primary text-center fs_xl pt-5 ff_sfProBold">Several Headquarters</h3>
+                            <p class="fc_primary fs_reg text-center ff_sfProMedium">You can find several Prime Car
+                                stores around the
+                                United
+                                States!</p>
+
+                            <a class="fc_primary fs_reg text-center text-decoration-underline ff_sfProMedium pb-3">Find
+                                the
+                                store closest to you now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-5 mt-5">
+                    <div class="p-4 h-100">
+                        <div class="card h-100 position-relative color_red">
+                            <img src="./assets/images/calender.png" alt="" class="position scale_hover">
+                            <h3 class="fc_primary text-center fs_xl pt-5 ff_sfProBold">Schedule Your Best Day</h3>
+                            <p class="fc_primary fs_reg text-center pt-4 ff_sfProMedium">Choose the day and time to take
+                                a test drive for
+                                free!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-5 mt-5">
+                    <div class="p-4 h-100">
+                        <div class="card h-100 position-relative color_blue">
+                            <img src="./assets/images/keys.png" alt="" class="position scale_hover">
+                            <h3 class="fc_primary text-center fs_xl pt-5 ff_sfProBold">Receive your car right away</h3>
+                            <p class="fc_primary fs_reg text-center pt-2 ff_sfProMedium">Close the contract and you get
+                                the
+                                keys
+                                right away</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- image slider -->
+    <section class="bg_color py-5" id="cars">
+        <div class="container myContainer">
+            <h1 class="ff_AmericanCaptain fs_5xl fc_primary">The cars that are hot right now</h1>
+            <p class="fc_primary fs_reg pb-4 ff_sfProRegular">Buy yours and be the most stylish in the neighborhood</p>
+        </div>
+
+
+        <div id="gallery">
+            <div class="image_overlay">
+                <img src="./assets/images/car2.png" class="h-100  w-100">
+                <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car3.png" class="h-100 w-100">
+                <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car7.png" class="h-100 w-100">
+                <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car5.png" class="h-100 w-100">
+                <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car6.png" class="h-100 w-100">
+                <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gallery2">
+            <div class="image_overlay">
+                <img src="./assets/images/car6.png" class="h-100 w-100">
+                <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car5.png" class="h-100 w-100">
+                 <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car2.png" class="h-100 w-100">
+                 <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car6.png" class="h-100 w-100">
+                 <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image_overlay">
+                <img src="./assets/images/Car3.png" class="h-100 w-100">
+                 <div class="text-adjust-shadow">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="text-white text-center ff_sfProBold">Tesla Model 3</h1>
+                        <p class="fc_primary ff_sfProMedium">Disruptive, avant-garde, futuristic, innovative.</p>
+                        <button class="fc_primary contact_btn ff_sfproDisplay bg-transparent">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video -->
+    <section class="bg_color py-5 position-relative">
+        <img src="./assets/images/Star1.png" alt="star" class="star1_position z-2 d-lg-block d-none w-100">
+        <img src="./assets/images/Star2.png" alt="star" class="star2_position z-0 w-25 mw_427">
+        <div class="container myContainer">
+            <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                <h1 class="fs_6xl fc_primary ff_AmericanCaptain pt-5 mw_700 z-1  text-lg-start text-center">Be amazed by
+                    the power</h1>
+                <p class="fc_primary fs_xl ff_sfProRegular text-lg-end text-center mw417 z-1">Speed and economy together
+                    in one place, use
+                    and abuse your car's potential.</p>
+            </div>
+            <div class="position-relative">
+                <video id="video" class="" width="100%" height="100%" controls
+                    poster="./assets/images/racing_car_thumbnail.png">
+                    <source src="./assets/videos/racing_car.mp4" type="video/mp4">
+                </video>
+                <button id="play-pause" class="border-0 bg-transparent z-3 play_btn_position"><img
+                        src="./assets/images/play_btn.png" alt="Play button"></button>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <section class="bg_color py-5 z-3 position-relative" id="contact">
+        <img src="./assets/images/CONTACTUS.png" alt="" class="contactus_position w-50 z-0">
+        <div class="container myContainer">
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <h1 class="fc_primary fs_5xl position-relative z-1">Contact us</h1>
+                    <p class="fc_primary fs_lg ">To find out more information about cars and quotes, fill out the form
+                        on the side or contact us
+                        by phone.</p>
+                </div>
+                <div class="col-12 col-xl-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-md-6 pt-5">
+                                <input type="text" placeholder="Your Name" class="fc_primary fs_md ff_helvetica w-100">
+                            </div>
+                            <div class="col-12 col-md-6 pt-5">
+                                <input type="email" placeholder="Your Email"
+                                    class="fc_primary z-1 fs_md ff_helvetica w-100">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 pt-5">
+                                <input type="number" placeholder="Phone Number"
+                                    class="fc_primary fs_md ff_helvetica w-100">
+                            </div>
+                            <div class="col-12 col-md-6 pt-5">
+                                <select id="country" name="Country" class="fc_primary fs_md ff_helvetica h-100 w-100">
+                                    <option value="">Country</option>
+                                    <option value="india"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Message" class="fc_primary fs_md ff_helvetica w-100 pt-5">
+                        <div class="my-5">
+                            <div id="video-controls">
+                                <button
+                                    class="fc_primary fs_md ff_helvetica message_btn  glow-on-hover">Message</button>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8698.229556162898!2d-97.73558212084683!3d30.267523249849443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b507d6081abf%3A0xa19d489a128bb96d!2sJW%20Marriott%20Austin!5e0!3m2!1sen!2sin!4v1680852276313!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg_color py-5">
+        <div class="container myContainer">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2 class="fc_primary fs_4xl ff_AmericanCaptain pb-5">Prime Car</h2>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h2 class="fc_primary fs_xxl mb-4">Where are we</h2>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Georgia</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Texas</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">California</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Virginia</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Colorado</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Pennsylvania</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Massachusetts</a></p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h2 class="fc_primary fs_xxl mb-4">Quick links</h2>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">About Us</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Our Services</a></p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none">Contact Us</a></p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h2 class="fc_primary fs_xxl mb-4">Email Us</h2>
+                            <p><a class="fc_secondary fs_sm text-decoration-none"
+                                    href="mailto:contact@primecar.com">contact@primecar.com</a></p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <h2 class="fc_primary fs_xxl mb-4">Call Us</h2>
+                            <p><a class="fc_secondary fs_sm text-decoration-none"
+                                    href="tel:+999-9-999-9999">+999-9-999-9999
+                                </a></p>
+                            <p>
+                            </p>
+                            <p> <a class="fc_secondary fs_sm text-decoration-none"
+                                    href="tel:+111-11-111-1111">+111-11-111-1111</a>
+                            </p>
+                            <div class="d-flex gap-4 pb-5">
+                                <a href="https://www.facebook.com/" class="facebook">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 12C0 17.9333 4.33333 22.8667 10 23.8667L10.0669 23.8132C10.0446 23.8088 10.0223 23.8045 10 23.8V15.3333H7V12H10V9.33333C10 6.33333 11.9333 4.66667 14.6667 4.66667C15.5333 4.66667 16.4667 4.8 17.3333 4.93333V8H15.8C14.3333 8 14 8.73333 14 9.66667V12H17.2L16.6667 15.3333H14V23.8C13.9777 23.8045 13.9554 23.8088 13.9331 23.8132L14 23.8667C19.6667 22.8667 24 17.9333 24 12C24 5.4 18.6 0 12 0C5.4 0 0 5.4 0 12Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                                <a href="https://www.linkedin.com/login">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.27557 0.666748C1.38701 0.666748 0.666687 1.38707 0.666687 2.27563V21.7245C0.666687 22.613 1.38701 23.3334 2.27557 23.3334H21.7245C22.613 23.3334 23.3334 22.613 23.3334 21.7245V2.27563C23.3334 1.38707 22.613 0.666748 21.7245 0.666748H2.27557ZM5.75431 7.70589C6.84029 7.70589 7.72064 6.82554 7.72064 5.73956C7.72064 4.65359 6.84029 3.77323 5.75431 3.77323C4.66834 3.77323 3.78798 4.65359 3.78798 5.73956C3.78798 6.82554 4.66834 7.70589 5.75431 7.70589ZM9.52146 9.15906H12.7803V10.652C12.7803 10.652 13.6646 8.88329 16.0708 8.88329C18.2172 8.88329 19.9952 9.94065 19.9952 13.1636V19.9598H16.6181V13.9871C16.6181 12.0859 15.6031 11.8768 14.8296 11.8768C13.2245 11.8768 12.9497 13.2613 12.9497 14.2351V19.9598H9.52146V9.15906ZM7.46841 9.15908H4.04021V19.9598H7.46841V9.15908Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                                <a href="https://www.instagram.com/"><svg width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.0005 0.363525C8.84036 0.363525 8.44377 0.377344 7.20259 0.433829C5.96384 0.490556 5.11829 0.686677 4.37843 0.974435C3.61312 1.27165 2.96393 1.66922 2.31716 2.31625C1.66991 2.96304 1.27235 3.61225 0.974173 4.37734C0.685697 5.11746 0.48934 5.96328 0.433584 7.20159C0.37807 8.4428 0.363525 8.83965 0.363525 11.9999C0.363525 15.1601 0.377586 15.5555 0.433827 16.7967C0.490794 18.0355 0.68691 18.8811 0.974416 19.621C1.27186 20.3863 1.66943 21.0355 2.31644 21.6823C2.96296 22.3296 3.61215 22.7281 4.37698 23.0253C5.11732 23.3131 5.96311 23.5092 7.20162 23.5659C8.4428 23.6224 8.83915 23.6363 11.9991 23.6363C15.1594 23.6363 15.5548 23.6224 16.796 23.5659C18.0347 23.5092 18.8813 23.3131 19.6216 23.0253C20.3867 22.7281 21.0349 22.3296 21.6814 21.6823C22.3287 21.0355 22.7262 20.3863 23.0244 19.6212C23.3105 18.8811 23.5068 18.0353 23.565 16.797C23.6208 15.5558 23.6353 15.1601 23.6353 11.9999C23.6353 8.83965 23.6208 8.44304 23.565 7.20183C23.5068 5.96304 23.3105 5.11746 23.0244 4.37759C22.7262 3.61225 22.3287 2.96304 21.6814 2.31625C21.0342 1.66898 20.3869 1.2714 19.6209 0.974435C18.8791 0.686677 18.0331 0.490556 16.7943 0.433829C15.5531 0.377344 15.158 0.363525 11.9969 0.363525H12.0005ZM10.9567 2.46049C11.2665 2.46001 11.6122 2.46049 12.0005 2.46049C15.1073 2.46049 15.4756 2.47165 16.7024 2.5274C17.8369 2.57928 18.4527 2.76886 18.8628 2.92813C19.4059 3.13904 19.793 3.39116 20.2 3.79843C20.6073 4.20571 20.8594 4.59359 21.0708 5.13662C21.23 5.54631 21.4199 6.16207 21.4715 7.29662C21.5272 8.52328 21.5394 8.89177 21.5394 11.9972C21.5394 15.1027 21.5272 15.4712 21.4715 16.6978C21.4196 17.8324 21.23 18.4481 21.0708 18.8578C20.8599 19.4009 20.6073 19.7875 20.2 20.1946C19.7928 20.6018 19.4061 20.8539 18.8628 21.0649C18.4532 21.2249 17.8369 21.4139 16.7024 21.4658C15.4758 21.5216 15.1073 21.5337 12.0005 21.5337C8.89345 21.5337 8.52522 21.5216 7.29859 21.4658C6.16408 21.4135 5.54834 21.2239 5.13793 21.0646C4.59491 20.8537 4.20705 20.6016 3.79978 20.1943C3.39252 19.787 3.14041 19.4001 2.92902 18.8569C2.76976 18.4472 2.57994 17.8314 2.52831 16.6969C2.47255 15.4702 2.4614 15.1017 2.4614 11.9943C2.4614 8.88692 2.47255 8.52037 2.52831 7.29371C2.58019 6.15916 2.76976 5.5434 2.92902 5.13322C3.13993 4.59019 3.39252 4.20231 3.79978 3.79504C4.20705 3.38777 4.59491 3.13565 5.13793 2.92425C5.5481 2.76425 6.16408 2.57516 7.29859 2.52304C8.37201 2.47456 8.788 2.46001 10.9567 2.45759V2.46049ZM18.2117 4.39262C17.4408 4.39262 16.8154 5.01734 16.8154 5.78849C16.8154 6.5594 17.4408 7.18486 18.2117 7.18486C18.9826 7.18486 19.608 6.5594 19.608 5.78849C19.608 5.01759 18.9826 4.39262 18.2117 4.39262ZM12.0005 6.02413C8.70048 6.02413 6.02493 8.69977 6.02493 11.9999C6.02493 15.3 8.70048 17.9744 12.0005 17.9744C15.3005 17.9744 17.9751 15.3 17.9751 11.9999C17.9751 8.69977 15.3005 6.02413 12.0005 6.02413ZM12.0005 8.1211C14.1425 8.1211 15.8792 9.85759 15.8792 11.9999C15.8792 14.1419 14.1425 15.8787 12.0005 15.8787C9.85827 15.8787 8.12184 14.1419 8.12184 11.9999C8.12184 9.85759 9.85827 8.1211 12.0005 8.1211Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex gap-4">
+                    <p class="fc_primary fs_xsm">Privacy policy</p>
+                    <a class="fc_primary fs_xsm">Term and conditions</a>
+                </div>
+                <p class="fc_primary fs_xsm">Copyright © 2022 Prime Car. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+    <!-- slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('#gallery').slick({
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 8000,
+            pauseOnHover: false,
+            cssEase: 'linear',
+
+        });
+        $('#gallery2').slick({
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 8000,
+            pauseOnHover: false,
+            cssEase: 'linear',
+        });
+    </script>
+    <!-- external js -->
+    <script src="./assets/js/demo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'sfProRegular';
+    src: url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+}
+
+@font-face {
+    font-family: 'American Captain';
+    src: url(../font/american-captain/American\ Captain.otf);
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url(../font/Helvetica-Font/Helvetica-BoldOblique.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Medium';
+    src: url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+    font-family: 'SF Pro Bold';
+    src: url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF);
+}
+
+:root {
+    /* font size */
+    --fs-md: 14px;
+    --fs-reg: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 22px;
+    --fs-xxl: 25px;
+    --fs-3xl: 30px;
+    --fs-4xl: 40px;
+    --fs-5xl: 50px;
+    --fs-6xl: 70px;
+
+    /* font family */
+    --ff-sfProRegualr: 'sfProRegular';
+    --ff-AmericanCaptain: 'American Captain';
+    --ffsfProDisplay: 'SF Pro Display';
+    --ff-helvetica: 'helvetica';
+    --ff-sfProMedium: 'SF Pro Medium';
+    --ff-sfProBold:'SF Pro Bold';
+
+    /* font color */
+    --fc-primary: white;
+    --fc-secondary: grey;
+}
+
+/* font color */
+.fc_primary {
+    color: #FFFFFF;
+}
+
+.fc_secondary {
+    color: #BDBDBD;
+}
+
+/* font family */
+.ff_sfProRegular {
+    font-family: var(--ff-sfProRegualr);
+}
+
+.ff_sfproDisplay {
+    font-family: var(--ffsfProDisplay);
+}
+
+.ff_sfProMedium{
+    font-family: var(--ff-sfProMedium);
+}
+
+.ff_sfProBold{
+    font-family: var(--ff-sfProBold);
+}
+
+.ff_AmericanCaptain {
+    font-family: var(--ff-AmericanCaptain);
+}
+
+.ff_helvetica {
+    font-family: var(--ff-helvetica);
+}
+
+
+/* font size */
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_reg {
+    font-size: var(--fs-reg);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+
+@media (min-width:768px) {
+    :root {
+        /* font size */
+        --fs-xsm: 13px;
+        --fs-sm: 15px;
+        --fs-md: 15px;
+        --fs-reg: 16px;
+        --fs-lg: 20px;
+        --fs-xl: 25px;
+        --fs-xxl: 30px;
+        --fs-3xl: 40px;
+        --fs-4xl: 70px;
+        --fs-5xl: 80px;
+        --fs-6xl: 90px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-reg: 20px;
+        --fs-lg: 25px;
+        --fs-xl: 30px;
+        --fs-xxl: 35px;
+        --fs-3xl: 50px;
+        --fs-4xl: 90px;
+        --fs-5xl: 90px;
+        --fs-6xl: 95px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --fs-xsm: 15px;
+        --fs-sm: 17px;
+        --fs-md: 20px;
+        --fs-reg: 24px;
+        --fs-lg: 30px;
+        --fs-xl: 32px;
+        --fs-xxl: 35px;
+        --fs-3xl: 56px;
+        --fs-4xl: 100px;
+        --fs-5xl: 110px;
+        --fs-6xl: 120px;
+    }
+}
